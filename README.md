@@ -34,8 +34,8 @@ Wireshark provides a three-pane interface:
 ### Toolbar Functions:
 
 * Shark icon initiates a live capture session on selected interfaces.
-* Display filter bar accepts BPF-like queries (e.g., `http`, `ip.addr == 192.168.1.1 && tcp.port == 443`).
-* `View > Coloring Rules`: used to identify traffic types (e.g., green for HTTP, blue for DNS) based on protocol and flags.
+* Display filter bar accepts BPF-like queries (`http`, `ip.addr == 192.168.1.1 && tcp.port == 443`).
+* `View > Coloring Rules`: used to identify traffic types (green for HTTP, blue for DNS) based on protocol and flags.
 
 ---
 
@@ -213,7 +213,7 @@ TCP stream analysis is essential for:
 ## Lessons Learned
 
 1. **Protocol Dissection Depth:**
-   Wireshark provides layered inspection capabilities that mirror OSI stack behavior. Understanding field dependencies (e.g., IP header flags affecting TCP session handling) enables better detection of crafted packets or exploit payloads.
+   Wireshark provides layered inspection capabilities that mirror OSI stack behavior. Understanding field dependencies (IP header flags affecting TCP session handling) enables better detection of crafted packets or exploit payloads.
 
 2. **File Carving Relevance:**
    Exporting objects such as JPEG and TXT from packet data is directly applicable in malware forensics, ransomware payload analysis, and insider threat investigations.
