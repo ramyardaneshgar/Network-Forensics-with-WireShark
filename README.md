@@ -1,8 +1,5 @@
 # THM-WireShark
-Network forensics using Wireshark, demonstrating advanced protocol dissection, TCP stream reassembly, HTTP object extraction, display filtering, and expert-level traffic anomaly detection across OSI layers.
-
-By Ramyar Daneshgar
-
+Network forensics using Wireshark, TCP stream reassembly, HTTP object extraction, display filtering, and traffic anomaly detection across OSI layers.
 ## Introduction
 
 Wireshark is a Layer 2–7 passive network traffic analyzer used extensively for packet capture (PCAP) analysis in incident response, intrusion detection, network performance debugging, and digital forensics. In this lab, I used `Exercise.pcapng` to demonstrate applied traffic analysis, full packet dissection, and forensic object recovery in a controlled environment.
