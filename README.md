@@ -1,4 +1,4 @@
-# THM-WireShark
+# WireShark
 Network forensics using Wireshark, TCP stream reassembly, HTTP object extraction, display filtering, and traffic anomaly detection across OSI layers.
 ## Introduction
 
